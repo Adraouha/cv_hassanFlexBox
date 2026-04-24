@@ -1,23 +1,24 @@
 # IronNous 📰
 
-Proyecto de pagina de noticias tecnologicas desarrollado con HTML y CSS.
+Projecte de pagina de noticies tecnologiques desenvolupat amb HTML i CSS.
 
-## Caracteristicas
+## Caracteristiques
 
-- Diseno responsive basico para movil, tablet y escritorio
-- Layout moderno con Grid y Flexbox
+- Contingut completament en catala
+- Disseny responsive basic
 - Estructura semantica HTML5
-- Componentes reutilizables para articulos y bloques laterales
-- Portada visual con imagen de fondo y navegacion interna
+- Layout amb Grid i Flexbox
+- Estil visual inspirat en la identitat d'IronHack
+- Codi simple i facil d'entendre per a nivell principiant
 
-## Tecnologias
+## Tecnologies
 
 - HTML5
 - CSS3
 
-## Objetivo
+## Objectiu
 
-Proyecto practico para mejorar habilidades en maquetacion web, jerarquia visual y diseno UI.
+Practicar maquetacio web, organitzacio de contingut i reutilitzacio d'estils amb una sola pagina informativa.
 
 ## Estructura
 
@@ -28,13 +29,9 @@ Proyecto practico para mejorar habilidades en maquetacion web, jerarquia visual 
 |- README.md
 ```
 
-## Vista general
-
-La pagina incluye secciones de noticias tecnologicas:
+## Seccions
 
 - Nacional
 - Internacional
-- Cultura
-- Deportes
-
-Ademas incorpora una portada principal, un menu de navegacion con anclas y un aside con contenido destacado.
+- Cultura digital
+- Esports i rendiment

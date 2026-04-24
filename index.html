@@ -1,215 +1,185 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="ca">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IronNous | Noticias Tecnologicas</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>IronNous | Noticies de tecnologia</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="hero" id="inicio">
-        <div class="hero__overlay"></div>
-        <div class="hero__content">
-            <p class="eyebrow">Edicion digital | Tecnologia y futuro</p>
-            <h1>IronNous</h1>
-            <p class="hero__lead">
-                Un espacio dedicado a la actualidad tecnologica con enfoque claro,
-                diseno limpio y noticias pensadas para explorar tendencias, cultura
-                digital e innovacion.
-            </p>
-            <div class="hero__meta">
-                <span>HTML5 semantico</span>
-                <span>CSS3 reusable</span>
-                <span>Grid + Flexbox</span>
+    <header class="hero" id="inici">
+        <div class="hero-content">
+            <p class="tagline">Actualitat digital</p>
+            <div class="logo">
+                <span class="logo-iron">Iron</span>
+                <span class="logo-nous">Nous</span>
             </div>
+            <h1>Diari tecnologic</h1>
+            <p class="intro">
+                El primer diari en línia que cobreix notícies digitals i tecnologia de la informació en català..
+            </p>
         </div>
     </header>
 
-    <nav class="main-nav" aria-label="Navegacion principal">
-        <a class="brand" href="#inicio">IronNous</a>
-        <ul class="main-nav__links">
-            <li><a href="#nacional">Nacional</a></li>
-            <li><a href="#internacional">Internacional</a></li>
-            <li><a href="#cultura">Cultura</a></li>
-            <li><a href="#deportes">Deportes</a></li>
+    <nav class="menu">
+        <ul>
+            <li><a href="#portada">Portada</a></li>
+            <li><a href="#noticies">Notícies</a></li>
+            <li><a href="#cultura">Cultura digital</a></li>
+            <li><a href="#tecnologia">Tecnologia i vida quotidiana</a></li>
         </ul>
     </nav>
 
-    <main class="page-layout">
-        <section class="top-story">
-            <div class="top-story__copy">
-                <p class="section-tag">Portada</p>
-                <h2>La inteligencia artificial redefine el ritmo de la industria digital</h2>
+    <main class="container">
+        <section class="destacada">
+            <div class="destacada-text">
+                <p class="section-label">Noves</p>
+                <h2>La tecnologia informatica es consolida com a motor de canvi en tots els sectors</h2>
                 <p>
-                    Empresas, universidades y startups aceleran el desarrollo de soluciones
-                    basadas en IA para mejorar productividad, seguridad y experiencias de usuario.
-                    El reto ya no es solo innovar, sino hacerlo con criterio, transparencia y
-                    una vision centrada en las personas.
+                    Des del desenvolupament web fins a l'analisi de dades, les eines digitals
+                    estan transformant la manera de treballar, comunicar i prendre decisions.
+                    Aquesta portada resumeix quatre ambits on la informatica esta tenint un
+                    impacte directe i visible.
                 </p>
             </div>
-            <div class="top-story__panel">
-                <p>Radar</p>
-                <strong>5 tendencias que dominan 2026</strong>
+            <aside class="destacada-box">
+                <h3>Temes del dia</h3>
                 <ul>
-                    <li>Automatizacion creativa</li>
-                    <li>Ciberseguridad predictiva</li>
-                    <li>Cloud mas eficiente</li>
-                    <li>Hardware especializado</li>
-                    <li>Productos con IA integrada</li>
+                    <li>Infraestructura digital</li>
+                    <li>Xips i computacio</li>
+                    <li>Disseny d'interficies</li>
+                    <li>Analisi esportiva amb dades</li>
                 </ul>
-            </div>
+            </aside>
         </section>
 
-        <div class="content-grid">
-            <div class="news-sections">
-                <section class="news-section" id="nacional">
-                    <div class="section-heading">
-                        <p class="section-tag">Nacional</p>
-                        <h2>Talento, hubs y nuevas oportunidades</h2>
-                    </div>
-                    <div class="article-grid">
-                        <article class="news-card">
-                            <p class="news-card__category">Innovacion</p>
-                            <h3>Barcelona impulsa un nuevo centro de desarrollo en IA aplicada</h3>
+        <div class="principal">
+            <div class="noticies">
+                <section id="portada" class="bloc">
+                    <p class="section-label">Portada</p>
+                    <h2>Empreses i centres locals reforcen la infraestructura digital</h2>
+                    <div class="articles">
+                        <article class="card">
+                            <h3>Els centres tecnics amplien serveis de ciberseguretat per a pimes</h3>
                             <p>
-                                El ecosistema local suma una nueva iniciativa orientada a conectar
-                                empresas emergentes, investigacion y formacion tecnica en proyectos
-                                con impacto real sobre salud, movilidad y servicios digitales.
+                                Cada vegada mes petites empreses incorporen copies de seguretat,
+                                monitoratge de xarxa i eines de proteccio contra atacs. Aquest
+                                creixement mostra com la informatica aplicada a l'entorn local
+                                ja no es un luxe, sino una necessitat basica per continuar operant
+                                amb seguretat.
                             </p>
                         </article>
-                        <article class="news-card">
-                            <p class="news-card__category">Startups</p>
-                            <h3>Pequenos estudios web ganan peso en la transformacion digital de pymes</h3>
+                        <article class="card">
+                            <h3>Nous espais de formacio impulsen perfils junior en programacio web</h3>
                             <p>
-                                Equipos especializados en desarrollo frontend, automatizacion y UX
-                                se consolidan como socios clave para negocios que buscan modernizar
-                                procesos sin asumir grandes estructuras de coste.
-                            </p>
-                        </article>
-                    </div>
-                </section>
-
-                <section class="news-section" id="internacional">
-                    <div class="section-heading">
-                        <p class="section-tag">Internacional</p>
-                        <h2>La carrera global por la computacion avanzada</h2>
-                    </div>
-                    <div class="article-grid">
-                        <article class="news-card">
-                            <p class="news-card__category">Computacion</p>
-                            <h3>Nuevas arquitecturas prometen acelerar simulaciones cientificas complejas</h3>
-                            <p>
-                                Fabricantes y centros de investigacion presentan chips optimizados
-                                para cargas especializadas, abriendo la puerta a avances en modelos
-                                climaticos, medicina personalizada y analisis industrial.
-                            </p>
-                        </article>
-                        <article class="news-card">
-                            <p class="news-card__category">Conectividad</p>
-                            <h3>La infraestructura de datos se convierte en prioridad estrategica</h3>
-                            <p>
-                                Regiones de todo el mundo refuerzan sus centros de datos, redes y
-                                normativas para sostener el crecimiento de aplicaciones masivas y
-                                garantizar soberania tecnologica.
+                                L'augment de cursos introductoris en HTML, CSS i JavaScript esta
+                                ajudant a preparar nous perfils tecnics. El sector nacional busca
+                                persones capaces de construir webs, gestionar continguts i entendre
+                                les bases del desenvolupament frontend.
                             </p>
                         </article>
                     </div>
                 </section>
 
-                <section class="news-section" id="cultura">
-                    <div class="section-heading">
-                        <p class="section-tag">Cultura</p>
-                        <h2>Como la tecnologia transforma nuestra vida cotidiana</h2>
-                    </div>
-                    <div class="article-grid">
-                        <article class="news-card">
-                            <p class="news-card__category">Sociedad</p>
-                            <h3>La alfabetizacion digital ya es una habilidad esencial en cualquier sector</h3>
+                <section id="noticies" class="bloc">
+                    <p class="section-label">Notícies</p>
+                    <h2>La cursa global pels sistemes de computacio avancada continua creixent</h2>
+                    <div class="articles">
+                        <article class="card">
+                            <h3>La industria del maquinari aposta per xips mes eficients i especialitzats</h3>
                             <p>
-                                Aprender a interpretar interfaces, gestionar datos y colaborar en
-                                entornos conectados se ha convertido en una competencia transversal
-                                tan relevante como la comunicacion o el trabajo en equipo.
+                                Fabricants d'arreu del mon desenvolupen processadors pensats per a
+                                inteligencia artificial, simulacions i grans volums de dades. Aquest
+                                moviment demostra com la informatica internacional depen tant del
+                                programari com del rendiment del maquinari.
                             </p>
                         </article>
-                        <article class="news-card">
-                            <p class="news-card__category">Creacion</p>
-                            <h3>Herramientas creativas en la nube acercan el diseno a nuevos perfiles</h3>
+                        <article class="card">
+                            <h3>Els centres de dades es converteixen en peces claus de l'economia digital</h3>
                             <p>
-                                La combinacion de software accesible, bibliotecas compartidas y
-                                procesos colaborativos abre espacio para una produccion mas agil,
-                                visual y participativa.
+                                Plataformes de video, serveis al núvol i aplicacions d'empresa
+                                necessiten infraestructures estables i escalables. Per aixo, molts
+                                paisos estan invertint en xarxes, refrigeracio eficient i sistemes
+                                de gestio per mantenir actius milions de serveis en linia.
                             </p>
                         </article>
                     </div>
                 </section>
 
-                <section class="news-section" id="deportes">
-                    <div class="section-heading">
-                        <p class="section-tag">Deportes</p>
-                        <h2>Del rendimiento al entretenimiento conectado</h2>
-                    </div>
-                    <div class="article-grid">
-                        <article class="news-card">
-                            <p class="news-card__category">eSports</p>
-                            <h3>Las competiciones digitales fortalecen su audiencia con experiencias inmersivas</h3>
+                <section id="cultura" class="bloc">
+                    <p class="section-label">Cultura digital</p>
+                    <h2>El disseny d'experiencies digitals marca la relacio entre tecnologia i persones</h2>
+                    <div class="articles">
+                        <article class="card">
+                            <h3>El disseny UX/UI guanya pes en aplicacions, webs i plataformes educatives</h3>
                             <p>
-                                Retransmisiones interactivas, analitica en tiempo real y comunidades
-                                globales consolidan a los eSports como una referencia en la nueva
-                                economia del entretenimiento.
+                                No n'hi ha prou amb que una eina funcione: tambe ha de ser clara,
+                                accessible i agradable d'utilitzar. La cultura digital actual valora
+                                molt les interficies ben pensades, capaces de guiar l'usuari sense
+                                confusions i amb una experiencia mes humana.
                             </p>
                         </article>
-                        <article class="news-card">
-                            <p class="news-card__category">Rendimiento</p>
-                            <h3>Wearables y sensores refinan la preparacion tecnica de equipos profesionales</h3>
+                        <article class="card">
+                            <h3>La creacio de continguts digitals depen cada vegada mes d'eines col·laboratives</h3>
                             <p>
-                                El seguimiento de datos biometricos y tacticos ayuda a entrenadores
-                                y deportistas a optimizar cargas, prevenir lesiones y ajustar
-                                estrategias con mayor precision.
+                                Editors visuals, plataformes al núvol i sistemes de prototipatge
+                                faciliten el treball compartit entre dissenyadors, desenvolupadors
+                                i creadors. La tecnologia informatica forma part directa del proces
+                                cultural de produir, revisar i publicar contingut digital.
+                            </p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="tecnologia" class="bloc">
+                    <p class="section-label">Tecnologia i vida quotidiana</p>
+                    <h2>Les dades i els sensors canvien la manera d'entendre l'activitat esportiva</h2>
+                    <div class="articles">
+                        <article class="card">
+                            <h3>Els wearables aporten informacio clau sobre esforç, ritme i recuperacio</h3>
+                            <p>
+                                Rellotges intel·ligents, polseres i sensors recullen dades que
+                                ajuden a planificar entrenaments amb mes precisio. La informatica
+                                esportiva interpreta aquesta informacio per detectar patrons i
+                                millorar el rendiment sense carregar en excés els esportistes.
+                            </p>
+                        </article>
+                        <article class="card">
+                            <h3>Els eSports utilitzen analisi tecnica per estudiar partides i estrategies</h3>
+                            <p>
+                                En la competicio digital, les estadistiques i les repeticions tenen
+                                un paper fonamental. Equips i entrenadors analitzen moviments,
+                                decisions i patrons de joc amb eines informatiques per preparar
+                                millor cada partida i prendre decisions mes rapides.
                             </p>
                         </article>
                     </div>
                 </section>
             </div>
 
-            <aside class="sidebar" aria-label="Contenido destacado">
-                <div class="sidebar-card sidebar-card--accent">
-                    <p class="section-tag">Destacado</p>
-                    <h3>Diseno responsive como base del proyecto</h3>
-                    <p>
-                        La interfaz se adapta a pantallas pequenas y grandes mediante una combinacion
-                        de Grid, Flexbox y espaciados consistentes.
-                    </p>
-                </div>
-
+            <aside class="sidebar">
                 <div class="sidebar-card">
-                    <h3>Claves del desarrollo</h3>
-                    <ul class="sidebar-list">
-                        <li>Estructura HTML5 con `header`, `nav`, `main`, `section`, `article`, `aside` y `footer`.</li>
-                        <li>Tarjetas reutilizables para noticias y bloques de apoyo.</li>
-                        <li>Tipografia con jerarquia clara y mejor legibilidad.</li>
+                    <h3>Metodologia del projecte</h3>
+                    <ul>
+                        <li>Estructura clara amb etiquetes HTML5.</li>
+                        <li>Classes senzilles i facils de reutilitzar.</li>
+                        <li>Estils separats en un unic fitxer CSS.</li>
                     </ul>
                 </div>
 
-                <div class="sidebar-card sidebar-card--image">
-                    <div class="sidebar-card__image"></div>
-                    <div>
-                        <p class="section-tag">UI</p>
-                        <h3>Una portada con identidad visual propia</h3>
-                        <p>
-                            El header usa una imagen de fondo con superposicion para reforzar
-                            el estilo editorial del sitio.
-                        </p>
-                    </div>
+                <div class="sidebar-card">
+                    <h3>Objectiu practic</h3>
+                    <p>
+                        El projecte esta pensat per a mostrar una base ordenada, coherent i
+                        assequible per a una persona que esta començant a maquetar pagines web.
+                    </p>
                 </div>
             </aside>
         </div>
     </main>
 
-    <footer class="site-footer">
-        <p>IronNous © 2026 | Proyecto practico de maquetacion web con HTML y CSS</p>
+    <footer class="footer">
+        <p>IronNous © 2026 | Projecte practic de maquetacio web amb HTML5 i CSS3</p>
     </footer>
 </body>
 </html>
