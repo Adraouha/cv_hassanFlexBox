@@ -137,10 +137,15 @@ img {
     border: 2px solid #18a8ff;
     color: #ffff;
 }
+.hobby-card p {
+    color: #c5a609;
+    text-align: start;
+    text-wrap: balance;
+}
 
 .hobby-card.accent {
     background: #102447;
-    color: v#ffff;
+    color: #ffff;
 }
 
 .hobby-card img {
