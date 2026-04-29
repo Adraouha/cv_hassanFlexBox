@@ -137,6 +137,7 @@ img {
     border: 2px solid #18a8ff;
     color: #ffff;
 }
+
 .hobby-card p {
     color: #c5a609;
     text-align: start;
@@ -195,12 +196,13 @@ img {
     padding-left: 18px;
 
 }
+
 ul li::marker {
-  color: #18a8ff;
-  size: 1em;
+    color: #18a8ff;
+    size: 1em;
 }
 
-.detail-box li + li {
+.detail-box li+li {
     margin-top: 8px;
 }
 
@@ -210,6 +212,12 @@ code {
     background: rgba(198, 107, 61, 0.12);
     color: var(--accent-deep);
 }
+
+.table-wrapper td,
+th {
+    color: #1d5b99;
+}
+
 /*
 @media (max-width: 720px) {
     .hero {

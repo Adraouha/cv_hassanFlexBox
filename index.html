@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hassan Adraou | CV Web</title>
+    <!-- Font Awesome per als icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="hero">
         <div class="hero-photo">
-            <img src="mifoto.png" alt="Foto de Hassan Adraou">
+            <img src="profil.jpg" alt="Foto de Hassan Adraou">
         </div>
 
         <div class="hero-copy">
@@ -22,6 +24,12 @@
             </p>
         </div>
     </header>
+
+    <nav style="background: var(--surface); border-bottom: 2px solid var(--line); padding: 12px 20px; text-align: center;">
+        <a href="about.html" style="color: var(--accent); text-decoration: none; margin: 0 18px; font-weight: bold; font-family: Georgia, serif;"><i class="fas fa-user"></i> Sobre mi</a>
+        <a href="preferencias.html" style="color: var(--accent); text-decoration: none; margin: 0 18px; font-weight: bold; font-family: Georgia, serif;"><i class="fas fa-star"></i> Preferències</a>
+        <a href="tarjeta.html" style="color: var(--accent); text-decoration: none; margin: 0 18px; font-weight: bold; font-family: Georgia, serif;"><i class="fas fa-id-card"></i> La meva targeta</a>
+    </nav>
 
     <main class="page">
         <section class="about card">
@@ -107,13 +115,23 @@
             <article class="card detail-box">
                 <h2>Fortaleses</h2>
                 <ul>
-                    <li>Treball en equip</li>
+                    <li>Treball en equipo</li>
                     <li>Organització</li>
                     <li>Comunicació intercultural</li>
                     <li>Iniciativa i proactivitat</li>
                 </ul>
             </article>
         </section>
+
+        <section class="card" style="text-align: center; margin-top: 20px;">
+            <a href="preferencias.html" class="mini-hobby" style="display: inline-block; text-decoration: none; background: var(--accent); color: white; border: none; padding: 15px 30px; font-size: 1.1rem; border-radius: 10px;">
+                Veure les meves preferències <i class="fas fa-arrow-right"></i>
+            </a>
+        </section>
     </main>
+
+    <footer>
+        <p style="text-align: center; padding: 20px; color: var(--muted);">&copy; 2026 Hassan Adraou — Curs IronHack</p>
+    </footer>
 </body>
 </html>
