@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ca">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,11 +9,12 @@
     <link rel="stylesheet" href="style.css">
     <style>
         /* Adaptació de la targeta al sistema d'estils de style.css */
-        
+
         .card-container {
             max-width: 1000px;
             margin: 40px auto;
-            background: #d6d7da; /* Color de card en style.css */
+            background: #d6d7da;
+            /* Color de card en style.css */
             border-radius: 24px;
             border: 2px solid var(--accent);
             overflow: hidden;
@@ -51,7 +53,7 @@
             border-radius: 20px;
             object-fit: cover;
             border: 3px solid var(--accent);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
             transition: transform 0.3s ease;
         }
 
@@ -69,7 +71,8 @@
         .card-content p {
             font-size: 1.15rem;
             line-height: 1.6;
-            color: #1d5b99; /* Color de text definit per l'usuari en style.css */
+            color: #1d5b99;
+            /* Color de text definit per l'usuari en style.css */
             text-align: justify;
         }
 
@@ -78,7 +81,7 @@
             border-radius: 18px;
             overflow: hidden;
             border: 2px solid var(--accent);
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
 
         .video-container iframe {
@@ -130,18 +133,27 @@
             .card-body {
                 flex-direction: column;
             }
+
             .card-photo {
                 min-width: 100%;
             }
         }
     </style>
 </head>
+
 <body>
 
-    <nav style="background: var(--surface); border-bottom: 2px solid var(--line); padding: 12px 20px; text-align: center;">
-        <a href="about.html" style="color: var(--accent); text-decoration: none; margin: 0 18px; font-weight: bold; font-family: Georgia, serif;"><i class="fas fa-user"></i> Sobre mi</a>
-        <a href="preferencias.html" style="color: var(--accent); text-decoration: none; margin: 0 18px; font-weight: bold; font-family: Georgia, serif;"><i class="fas fa-star"></i> Preferències</a>
-        <a href="tarjeta.html" style="color: var(--accent); text-decoration: none; margin: 0 18px; font-weight: bold; font-family: Georgia, serif;"><i class="fas fa-id-card"></i> La meva targeta</a>
+    <nav
+        style="background: var(--surface); border-bottom: 2px solid var(--line); padding: 12px 20px; text-align: center;">
+        <a href="about.html"
+            style="color: var(--accent); text-decoration: none; margin: 0 18px; font-weight: bold; font-family: Georgia, serif;"><i
+                class="fas fa-user"></i> Sobre mi</a>
+        <a href="preferencias.html"
+            style="color: var(--accent); text-decoration: none; margin: 0 18px; font-weight: bold; font-family: Georgia, serif;"><i
+                class="fas fa-star"></i> Preferències</a>
+        <a href="tarjeta.html"
+            style="color: var(--accent); text-decoration: none; margin: 0 18px; font-weight: bold; font-family: Georgia, serif;"><i
+                class="fas fa-id-card"></i> La meva targeta</a>
     </nav>
 
     <main class="page">
@@ -149,43 +161,35 @@
             <div class="card-header">
                 Hassan Adraou
             </div>
-            
+
             <div class="card-body">
                 <div class="card-photo">
                     <img src="profil.jpg" alt="Foto de Hassan Adraou">
                 </div>
-                
+
                 <div class="card-content">
                     <p>
                         Hola! Sóc en Hassan Adraou, traductor i redactor tècnic. Em fascina la comunicació entre
                         cultures i la tecnologia. Aquesta és la meva targeta personal on combino la meva passió pels
                         idiomes amb el disseny digital.
                     </p>
-                    
+
                     <div class="video-container">
-                        <!-- Video embebido: Corregido a formato /embed/ para que funcione -->
                         <iframe src="https://www.youtube.com/embed/bvl9Kw3mHIg" title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
-                    
-                    <div class="multimedia-links">
-                        <!-- Enlaces corregidos para que funcionen -->
-                        <a href="https://www.youtube.com/watch?v=bvl9Kw3mHIg" target="_blank">
-                            <i class="fas fa-hand-point-right"></i> punxa aquí per veure el meu portfoli de traducció!
-                        </a>
-                        <a href="https://www.soundfly.es" target="_blank">
-                            <i class="fas fa-hand-point-right"></i> o aquí per escoltar el meu podcast sobre cultura!
-                        </a>
-                    </div>
-                    
+
+
+
                     <div class="audio-player-container">
                         <!-- Placeholder de audio funcional (enlace de ejemplo a MP3 público si fuera posible, sino dejamos el reproductor listo) -->
-                        <audio controls>
-                            <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
-                            El teu navegador no suporta l'element d'àudio.
-                        </audio>
+
+                        <iframe src="https://archive.org/embed/lil-peep-come-over-when-youre-sober-pt.-2" width="500"
+                            height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"
+                            allowfullscreen></iframe>
+
                     </div>
                 </div>
             </div>
@@ -197,4 +201,5 @@
     </footer>
 
 </body>
+
 </html>
